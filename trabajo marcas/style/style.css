@@ -1,0 +1,81 @@
+body , html{
+  background-image: url(/imagenes/fondo4.jpg) ;
+  margin: 0%;
+  background-repeat: no-repeat;
+ background-size: cover;
+ overflow: hidden;
+ 
+}
+.ani1{
+    position: absolute;
+    top: 400px;
+    color: cornsilk;
+    border-radius: 5px;
+    width: 700px;
+    height: 200px;
+    background-image: url(/imagenes/fondodiv1.jpg);
+    left: 600px;
+    text-align: center;
+    text-shadow: 3px 3px #ffee00;
+    font-size: 500%;
+    animation: ani1 5s  0s;
+    z-index: 1;
+    overflow: hidden;
+}
+@keyframes ani1{
+  0%{
+      left: 4000px;
+      top:400px;
+  }
+  25%{
+    transform: rotate(180deg);
+  }
+  100%{
+      left: 600px;
+  }
+
+}
+.img1{
+  position: absolute;
+  width: 450px;
+  height: 400px;
+  left: 550px;
+  top: 300px;
+  animation: img1 13s 0s;
+  z-index: 10;
+  overflow: hidden;
+}
+@keyframes img1{
+  0%{
+      left: 0px;
+      top: 4000px;
+  }
+  100%{
+    left: 550px;
+    top: 300px;
+  }
+
+}
+.img2{
+  position: absolute;
+  width: 450px;
+  height: 400px;
+  left: 1000px;
+  top: 300px;
+  animation: imagen2 20s 0s;
+  z-index: 10;
+  overflow: hidden;
+}
+ @keyframes imagen2 {
+   0%{
+     
+     top: 4000px;
+   }
+   25%{
+     transform: rotate(180deg);
+   }
+   100%{
+     left: 1000px;
+     top: 300px;
+   }
+ }
